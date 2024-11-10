@@ -1,0 +1,85 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(122, 13, 31, 0.453);
+}
+
+form {
+    margin: auto;
+    background-color: rgba(136, 8, 79, 0.895);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(219, 40, 129, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(91, 12, 52);
+}
+
+fieldset {
+    border: 2px solid rgb(116, 11, 116);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(113, 18, 69, 0.911);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(241, 134, 204);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(221, 84, 187);
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid pink;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: pink;
+    color: rgb(241, 15, 15);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(245, 120, 191, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: purple;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid pink;
+    border-radius: 8px;
+    background-color: purple(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(113, 3, 65, 0.5);
+}
+
+#resume-display h2 {
+    color: rgb(220, 31, 145);
+}
